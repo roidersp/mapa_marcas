@@ -361,7 +361,6 @@ $(document).on("click", "#selec_der", function(){
 $(document).on("click",".marcas_item", function(){
 	var marca_item=$(this).attr("marca");
 	
-	console.log(marcas[marca_item]);
 	
 	if(marcas[marca_item]){
 		$(this).addClass("apagado");
