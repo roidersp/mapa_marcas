@@ -1250,7 +1250,43 @@ background-size: cover;
 		height: auto;
 		margin-top: 30px;
 	}
-
+	
+	#indepth_cover{
+		background-size: inherit;
+	}
+	
+	#pais_close{
+		display: none;
+	}
+	
+	.pais_item{
+		width: 80px;
+		height: 80px;
+	}
+	
+	.pais_logo{
+		width: 40px;
+		height: 40px;
+	}
+	
+	.equipo_eq{
+		font-size: 10px;
+	}
+	
+	.pais_container_in{
+		max-height: inherit;
+	}
+	
+	#seleccionador_movil{
+		display: table;
+		margin:  auto;
+	}
+	
+	#seleccionador_movil select{
+		width: 200px;
+		margin-bottom: 30px;
+		margin-top: 20px;
+	}
 }
 
 

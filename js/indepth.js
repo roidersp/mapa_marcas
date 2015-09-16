@@ -199,6 +199,8 @@ $.getJSON( urlIndepth+"js/data.json", function( data ) {
 		
 	});
 	
+	
+	
 	if(ventana_alto>600){
 		var pais=data['albania'];
 		if(pais!=undefined){
@@ -228,6 +230,38 @@ $.getJSON( urlIndepth+"js/data.json", function( data ) {
 			cont.css("display","table");
 		}
 	}
+	
+	$(document).on("change","#seleccionador_movil select",function(){
+		var pais_id=$(this).val();
+		var pais=data[pais_id];
+		console.log(pais);
+		if(pais!=undefined){
+			$("#pais_nombre").html(pais["nombre"]);
+			var champs=pais["champ"];
+			var euro=pais["euro"];
+			if(champs!=undefined){
+				console.log(champs);
+				$.each(champs, function( i, item ) {
+					var nombre=item["nombre"];
+					var images="images/equipos_logos/"+normalize(nombre).replace(/\s/g,"-").toLowerCase()+".png";
+					var div='<div class="pais_item_cont"><div class="pais_item" ><div class="pais_logo" style="background-image: url('+images+')"></div><div class="equipo_eq">'+nombre+'</div></div><div class="pais_item"><div class="pais_marca '+item["marca"].toLowerCase()+'"></div> </div></div>'
+					cont.find(".pais_datos").append(div);
+				});
+			}
+			
+			if(euro!=undefined){
+				console.log(euro);
+				$.each(euro, function( i, item ) {
+					var nombre=item["nombre"];
+					var images="images/equipos_logos/"+normalize(nombre).replace(/\s/g,"-").replace(".","").toLowerCase()+".png";
+					var div='<div class="pais_item_cont"><div class="pais_item" ><div class="pais_logo" style="background-image: url('+images+')"></div><div class="equipo_eq">'+nombre+'</div></div><div class="pais_item"><div class="pais_marca '+item["marca"].toLowerCase()+'"></div> </div></div>'
+					cont.find(".pais_datos").append(div);
+				});
+			}
+			cont.fadeIn();
+			cont.css("display","table");
+		}
+	});
 	
 	/*<div class="pais_item_cont">
 								<div class="pais_item" >
