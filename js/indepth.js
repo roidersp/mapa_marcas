@@ -170,7 +170,7 @@ $(document).ready(function(){
 
 $(window).on("resize", function(){
 	indepth_sizeAdjust(false);
-    	 if(ventana_alto>600){
+    	 if(ventana_alto>600 || ventana_ancho>600){
 	 	$('.indepth_break').css("height",ventana_alto+"px");
 	 	//$('#indepth_cover .indepth_cover_back_body').css("top",ventana_alto*.60);
  	}
