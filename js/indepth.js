@@ -287,7 +287,7 @@ $.getJSON( urlIndepth+"js/data.json", function( data ) {
 				console.log(champs);
 				$.each(champs, function( i, item ) {
 					var nombre=item["nombre"];
-					var images=+urlIndepth"images/equipos_logos/"+normalize(nombre).replace(/\s/g,"-").toLowerCase()+".png";
+					var images=urlIndepth+"images/equipos_logos/"+normalize(nombre).replace(/\s/g,"-").toLowerCase()+".png";
 					var div='<div class="pais_item_cont"><div class="pais_item" ><div class="pais_logo" style="background-image: url('+images+')"></div><div class="equipo_eq">'+nombre+'</div></div><div class="pais_item"><div class="pais_marca '+item["marca"].toLowerCase()+'"></div> </div></div>'
 					cont.find(".pais_datos").append(div);
 				});
