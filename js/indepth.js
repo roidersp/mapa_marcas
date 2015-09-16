@@ -1,6 +1,6 @@
 var disqus_shortname = 'juanfutbol';
 var disqus_identifier;
-var disqus_url="adivina-quien";
+var disqus_url="las-marcas-de-la-uefa";
 var disqus_number_c=2;
 var disqus_per_page=3;
 var tamaño_total=1920;
@@ -151,7 +151,7 @@ $(document).ready(function(){
     {   	
     }else{
     	
-    	 if(ventana_ancho>600){
+    	if(ventana_alto>600 || ventana_ancho>600){
 	    	 $('#indepth_cover').css("height",(ventana_alto-100)+"px");
 
 
@@ -201,7 +201,7 @@ $.getJSON( urlIndepth+"js/data.json", function( data ) {
 	
 	
 	
-	if(ventana_alto>600){
+	if(ventana_alto<600 || ventana_ancho<600){
 		var pais=data['albania'];
 		if(pais!=undefined){
 			$("#pais_nombre").html(pais["nombre"]);

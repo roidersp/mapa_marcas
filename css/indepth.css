@@ -9,7 +9,9 @@
 	cursor: pointer;
 }
 
-
+#seleccionador_movil{
+	display: none;
+}
 
 .st0{opacity:0.6;fill:#191919;enable-background:new    ;}
 .st1{fill:#478DA7;}
