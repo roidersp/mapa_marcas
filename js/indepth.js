@@ -169,7 +169,13 @@ $(document).ready(function(){
 });
 
 $(window).on("resize", function(){
-	indepth_sizeAdjust(false);
+	indepth_sizeAdjust(false)
+	if(ventana_alto>600 || ventana_ancho>600){
+	    	 $('#indepth_cover').css("height",(ventana_alto-100)+"px");
+
+
+	 	//$('#indepth_cover .indepth_cover_back_body').css("top",ventana_alto*.60);
+ 	};
     	 if(ventana_alto>600 || ventana_ancho>600){
 	 	$('.indepth_break').css("height",ventana_alto+"px");
 	 	//$('#indepth_cover .indepth_cover_back_body').css("top",ventana_alto*.60);
@@ -370,7 +376,6 @@ $(document).on("click",".marcas_item", function(){
 		$(this).removeClass("apagado");
 		marcas[marca_item]=true;
 		$("."+marca_item+"."+copa).show();
-		marcas={"adidas":true,"nike":true,"newbalance":true,"underarmour":true,"puma":true,"otros":true};
 	}
 	
 });
