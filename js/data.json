@@ -1,0 +1,473 @@
+{
+  "albania": {
+    "nombre": "Albania",
+    "euro": [
+      {
+        "nombre": "KF Skënderbeu",
+        "marca": "Puma"
+      }
+    ]
+  },
+  "alemania": {
+    "nombre": "Alemania",
+    "champ": [
+      {
+        "nombre": "Bayern Múnich",
+        "marca": "Adidas"
+      },
+      {
+        "nombre": "Bayer Leverkusen",
+        "marca": "Adidas"
+      },
+      {
+        "nombre": "Wolfsburg",
+        "marca": "kappa"
+      },
+      {
+        "nombre": "Borussia Mönchengladbach",
+        "marca": "kappa"
+      }
+    ],
+    "euro": [
+      {
+        "nombre": "Borussia Dortmund",
+        "marca": "Puma"
+      },
+      {
+        "nombre": "FC Augsburg",
+        "marca": "Nike"
+      },
+      {
+        "nombre": "Schalke 04",
+        "marca": "Adidas"
+      }
+    ]
+  },
+  "austria": {
+    "nombre": "Austria",
+    "euro": [
+      {
+        "nombre": "Rapid Wien",
+        "marca": "Adidas"
+      }
+    ]
+  },
+  "azerbaijan": {
+    "nombre": "Azerbaiyán",
+    "euro": [
+      {
+        "nombre": "Qarabağ FK",
+        "marca": "Adidas"
+      },
+      {
+        "nombre": "Qäbälä FK",
+        "marca": "Joma"
+      }
+    ]
+  },
+  "belgica": {
+    "nombre": "Bélgica",
+    "champ": [
+      {
+        "nombre": "Gent",
+        "marca": "Jartazi Sports"
+      }
+    ],
+    "euro": [
+      {
+        "nombre": "Anderlecht",
+        "marca": "Adidas"
+      }
+    ]
+  },
+  "bielorrusia": {
+    "nombre": "Bielorrusia",
+    "champ": [
+      {
+        "nombre": "BATE Borisov",
+        "marca": "Joma"
+      }
+    ],
+    "euro": [
+      {
+        "nombre": "FC Dinamo Minsk",
+        "marca": "Saller"
+      }
+    ]
+  },
+  "chipre": {
+    "nombre": "Chipre",
+    "euro": [
+      {
+        "nombre": "APOEL",
+        "marca": "Puma"
+      }
+    ]
+  },
+  "croacia": {
+    "nombre": "Croacia",
+    "champ": [
+      {
+        "nombre": "Dinamo Zagreb",
+        "marca": "Puma"
+      }
+    ]
+  },
+  "dinamarca": {
+    "nombre": "Dinamarca",
+    "euro": [
+      {
+        "nombre": "FC Midtjylland",
+        "marca": "Nike"
+      }
+    ]
+  },
+  "espania": {
+    "nombre": "España",
+    "champ": [
+      {
+        "nombre": "FC Barcelona",
+        "marca": "Nike"
+      },
+      {
+        "nombre": "Real Madrid",
+        "marca": "Adidas"
+      },
+      {
+        "nombre": "Atlético Madrid",
+        "marca": "Nike"
+      },
+      {
+        "nombre": "Valencia",
+        "marca": "Adidas"
+      },
+      {
+        "nombre": "Sevilla",
+        "marca": "Adidas"
+      }
+    ],
+    "euro": [
+      {
+        "nombre": "A. Bilbao",
+        "marca": "Nike"
+      },
+      {
+        "nombre": "Villarreal",
+        "marca": "Xtep"
+      }
+    ]
+  },
+  "francia": {
+    "nombre": "Francia",
+    "champ": [
+      {
+        "nombre": "CSKA Moscu",
+        "marca": "Adidas"
+      },
+      {
+        "nombre": "Lyon",
+        "marca": "Adidas"
+      },
+      {
+        "nombre": "PSG",
+        "marca": "Nike"
+      }
+    ],
+    "euro": [
+      {
+        "nombre": "Marsella",
+        "marca": "Adidas"
+      },
+      {
+        "nombre": "Saint-Étienne",
+        "marca": "Le Coq Sportif"
+      },
+      {
+        "nombre": "As Mónaco",
+        "marca": "Nike"
+      },
+      {
+        "nombre": "Girondis",
+        "marca": "Puma"
+      }
+    ]
+  },
+  "grecia": {
+    "nombre": "Grecia",
+    "champ": [
+      {
+        "nombre": "Olympiakos",
+        "marca": "Adidas"
+      }
+    ],
+    "euro": [
+      {
+        "nombre": "Asteras Tripolis FC",
+        "marca": "Nike"
+      },
+      {
+        "nombre": "PAOK",
+        "marca": "Macron"
+      }
+    ]
+  },
+  "holanda": {
+    "nombre": "Holanda",
+    "champ": [
+      {
+        "nombre": "PSV",
+        "marca": "Umbro"
+      }
+    ],
+    "euro": [
+      {
+        "nombre": "ajax",
+        "marca": "Adidas"
+      },
+      {
+        "nombre": "Groningen",
+        "marca": "Robey Sports"
+      },
+      {
+        "nombre": "AZ Alkmaar",
+        "marca": "Under Armour"
+      }
+    ]
+  },
+  "reinounido": {
+    "nombre": "Inglaterra",
+    "champ": [
+      {
+        "nombre": "Manchester United",
+        "marca": "Adidas"
+      },
+      {
+        "nombre": "chelsea",
+        "marca": "Adidas"
+      },
+      {
+        "nombre": "Manchester City",
+        "marca": "Nike"
+      },
+      {
+        "nombre": "Arsenal",
+        "marca": "Puma"
+      }
+    ],
+    "euro": [
+      {
+        "nombre": "Liverpool",
+        "marca": "New Balance"
+      },
+      {
+        "nombre": "Tottenham",
+        "marca": "New Balance"
+      }
+    ]
+  },
+  "israel": {
+    "nombre": "Israel",
+    "champ": [
+      {
+        "nombre": "Maccabi Tel Aviv",
+        "marca": "Adidas"
+      }
+    ]
+  },
+  "italia": {
+    "nombre": "Italia",
+    "champ": [
+      {
+        "nombre": "Juventus",
+        "marca": "Adidas"
+      },
+      {
+        "nombre": "AS Roma",
+        "marca": "Nike"
+      }
+    ],
+    "euro": [
+      {
+        "nombre": "Napoli",
+        "marca": "Kappa"
+      },
+      {
+        "nombre": "Fiorentina",
+        "marca": "Le Coq Sportif"
+      },
+      {
+        "nombre": "Lazio",
+        "marca": "Macron"
+      }
+    ]
+  },
+  "kazajistan": {
+    "nombre": "Kazajistán",
+    "champ": [
+      {
+        "nombre": "Astana",
+        "marca": "Adidas"
+      }
+    ]
+  },
+  "noruega": {
+    "nombre": "Noruega",
+    "euro": [
+      {
+        "nombre": "Rosenborg",
+        "marca": "Adidas"
+      },
+      {
+        "nombre": "Molde",
+        "marca": "Nike"
+      }
+    ]
+  },
+  "polonia": {
+    "nombre": "Polonia",
+    "euro": [
+      {
+        "nombre": "Legia Warszawa",
+        "marca": "Adidas"
+      },
+      {
+        "nombre": "KKS Lech Poznań",
+        "marca": "Nike"
+      }
+    ]
+  },
+  "portugal": {
+    "nombre": "Portugal",
+    "champ": [
+      {
+        "nombre": "Porto",
+        "marca": "New Balance"
+      }
+    ],
+    "euro": [
+      {
+        "nombre": "Benfica",
+        "marca": "Adidas"
+      },
+      {
+        "nombre": "Braga",
+        "marca": "Locatoni"
+      },
+      {
+        "nombre": "Sporting",
+        "marca": "Macron"
+      },
+      {
+        "nombre": "Belenenses",
+        "marca": "Macron"
+      }
+    ]
+  },
+  "republicacheca": {
+    "nombre": "Rep. Checa",
+    "euro": [
+      {
+        "nombre": "FC Slovan Liberec",
+        "marca": "Nike"
+      },
+      {
+        "nombre": "Sparta Praga",
+        "marca": "Nike"
+      },
+      {
+        "nombre": "FC Viktoria Plzeň",
+        "marca": "Puma"
+      }
+    ]
+  },
+  "rusia": {
+    "nombre": "Rusia",
+    "champ": [
+      {
+        "nombre": "FC Zenit",
+        "marca": "Nike"
+      }
+    ],
+    "euro": [
+      {
+        "nombre": "Lokomotiv Moscú",
+        "marca": "adidas"
+      },
+      {
+        "nombre": "FC Krasnodar",
+        "marca": "Kappa"
+      },
+      {
+        "nombre": "Rubin Kazan",
+        "marca": "Puma"
+      }
+    ]
+  },
+  "serbia": {
+    "nombre": "Serbia",
+    "euro": [
+      {
+        "nombre": "FK Partizan",
+        "marca": "Adidas"
+      }
+    ]
+  },
+  "suecia": {
+    "nombre": "Suecia",
+    "champ": [
+      {
+        "nombre": "Malmo FF",
+        "marca": "Puma"
+      }
+    ]
+  },
+  "suiza": {
+    "nombre": "Suiza",
+    "euro": [
+      {
+        "nombre": "Basel",
+        "marca": "Adidas"
+      },
+      {
+        "nombre": "FC Sion",
+        "marca": "Errea"
+      }
+    ]
+  },
+  "turquia": {
+    "nombre": "Turquía",
+    "champ": [
+      {
+        "nombre": "Galatasaray",
+        "marca": "Nike"
+      }
+    ],
+    "euro": [
+      {
+        "nombre": "Fenerbahçe",
+        "marca": "Adidas"
+      },
+      {
+        "nombre": "Besiktas",
+        "marca": "Adidas"
+      }
+    ]
+  },
+  "ucrania": {
+    "nombre": "Ucrania",
+    "champ": [
+      {
+        "nombre": "Dynamo Kiev",
+        "marca": "Adidas"
+      },
+      {
+        "nombre": "Shakthar",
+        "marca": "Nike"
+      },
+      {
+        "nombre": "Dnipro Dnipropetrovsk",
+        "marca": "Nike"
+      }
+    ]
+  }
+}

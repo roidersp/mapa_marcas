@@ -165,9 +165,7 @@ svg{
 
 .apagado.marca_otros{
 	background-image: url(../images/ui/otros-desactivado.png);
-	
 }
-
 
 .marcas_cont{
 	height: auto;
@@ -244,16 +242,20 @@ svg{
 }
 
 #pais_cont{
-	background-color: #092427;
+	background-color: rgba(9, 36, 39, 0.60);
 	position: absolute;
 	top: 0;
 	left: 0;
+	bottom: 0;
+	right: 0;
 	display: table;
 	display: none;
+	width: 100%;
+	height: 100%;
 }
 
 .pais_container{
-
+	
 	display: table-cell;
 	vertical-align: middle;
 }
@@ -261,9 +263,12 @@ svg{
 .pais_container_in{
 	width: 90%;
 	max-width: 500px;
-	
+	max-height: 90%;
+	overflow: scroll;
 	margin: auto;
 	height: auto;
+	padding: 5px 20px;
+	background-color: rgba(9, 36, 39, 1);
 }
 
 .pais_header{
@@ -327,6 +332,7 @@ svg{
 	background-size: contain;
 	vertical-align: middle;
 	margin: 10px auto;
+	background-repeat: no-repeat;
 }
 
 .equipo_eq{
@@ -334,6 +340,7 @@ svg{
 	font-size: 14px;
 	text-align: center;
 	height: 15px;
+	padding: 0 3px;
 }
 
 .pais_marca{
@@ -348,6 +355,69 @@ svg{
 	background-image: 	url(../images/marcas_logos/adidas.png);
 }
 
+.nike{
+	background-image: 	url(../images/marcas_logos/nike.png);
+}
+
+.xtep{
+	background-image: 	url(../images/marcas_logos/xtep.png);
+}
+
+.kappa{
+	background-image: 	url(../images/marcas_logos/kappa.png);
+}
+
+.puma{
+	background-image: 	url(../images/marcas_logos/puma.png);
+}
+
+.sportif{
+	background-image: 	url(../images/marcas_logos/le-coq-sportif.png);
+}
+
+.balance{
+	background-image: 	url(../images/marcas_logos/new-balance.png);
+}
+
+.macron{
+	background-image: 	url(../images/marcas_logos/macron.png);
+}
+
+.joma{
+	background-image: 	url(../images/marcas_logos/joma.png);
+}
+
+.umbro{
+	background-image: 	url(../images/marcas_logos/umbro.png);
+}
+
+.jartazi{
+	background-image: 	url(../images/marcas_logos/jartazi-sport.png);
+}
+
+.saller{
+	background-image: 	url(../images/marcas_logos/saller.png);
+}
+
+.robey{
+	background-image: 	url(../images/marcas_logos/robey-sports.png);
+}
+
+.armour{
+	background-image: 	url(../images/marcas_logos/under-armour.png);
+}
+
+.locatoni{
+	background-image: 	url(../images/marcas_logos/locatoni.png);
+}
+
+.errea{
+	background-image: 	url(../images/marcas_logos/errea.png);
+}
+
+.marca_euro{
+	display: none;
+}
 
 #indepth_cover{
 	background-image: url(../images/fondo-imagen.png);
@@ -434,11 +504,7 @@ svg{
 	
 }
 
-#indepth_cover .indepth_subtitle2 div{
-	width: 810px;
-	margin: auto;
-	color: #f0d38c;
-}
+
 
 
 /****social*****/
@@ -866,66 +932,22 @@ background-size: cover;
 
 /*** Movil ****/
 @media screen and (max-width:1100px) {
-	.adivina_btn{
-		    margin: 0 29px;
+	.indepth_mapa{
+		width: 900px;
 	}
 	
-	.adivina_der {
-	    width: 400px;
-	    margin: 0px 20px;
-	}
-
-	.adivina_cont {
-	    display: table;
-	    margin: auto;
-	    padding-top: 45px;
-	    padding-bottom: 130px;
-	    width: 910px;
+	#seleccionador{
+		top: 100px;
 	}
 }
 
 @media screen and (max-width:910px) {
-	
-	.indepth_page_body{
-		width: auto;
-	}
-	.adivina_btn{
-		    margin: 0 10px;
+	.indepth_mapa{
+		width: 800px;
 	}
 	
-	.adivina_der {
-	    width: 310px;
-	    margin: 0px 10px;
-	}
-
-	.adivina_cont {
-	    display: table;
-	    margin: auto;
-	    padding-top: 45px;
-	    padding-bottom: 130px;
-	    width: 750px;
-	}
-	
-	.adivina_pregunta{
-		width: 90%
-	}
-	
-	.adivina_btn{
-		width: 120px;
-		    background-size: contain;
-    background-repeat: no-repeat;
-	}
-	
-	.indepth_share_card_boton .indepth_share_item{
-		width: 120px;
-	}
-	
-	.indepth_page{
-		min-width: 0px;
-	}
-	
-	.indepth_pages{
-		min-width: 0px;
+	#seleccionador{
+		top: 100px;
 	}
 }
 
@@ -957,95 +979,12 @@ background-size: cover;
 	
 }
 
-@media screen and (max-width: 740px) {
-	#indepth_editor_profile .indepth_page_body{
-		width: 100%;
-	}
-	
-	.rertert{
-		float: none;
-		width: 500px;
-		margin: auto;
-		position: relative;
-	}
-	
-	#indepth_twitter_editor{
-		display: none;
-	}
-	
-	.editor_picture{
-		top: -15px;
-	}
 
-
-	
-	
-}
-
-@media screen and (max-width: 605px) {
-
-		
-	.indepth_break {
-		max-height: 500px;
-	}
-	
-
-	#indepth_cover{
-		height: 650px;
-	}
-	
-	#indepth_cover .indepth_subtitle2 div{
-	padding-right: 10px;
-	width: auto;
-	margin: auto;
-}
-	
-		
-	
-	.indepth_parallax_back{
-		background-attachment: initial;
-	}
-	
-	.indepth_break .indepth_title{
-		font-size:46px;
-		text-transform: uppercase;
-		font-weight: 700;
-	}
-	
-	.indepth_libros_controles{
-	display: none;
-}
-.indepth_text{
-	width: 100%;
-}
-
-}
 
 @media screen and (max-width: 414px) {
 
-	#indepth_cover{
-		height: 540px;	
-	}
-	
-	.adivina_izq{
-		width: 400px;
-	}
-	
-	
-	#adivinafila1{
-		margin-bottom: 5px;
-	}
-	
-	#adivinafila2{
-		margin-bottom: 10px;
-	}
-	
-	.adivina_der{
-		margin-top: -60px;
-	}
-	
-		
-	
+
+
 
 	
 
@@ -1054,9 +993,7 @@ background-size: cover;
 
 @media screen and (max-width: 414px) {
 
-	#indepth_cover{
-		height: 540px;	
-	}
+
 	
 	.adivina_izq{
 		width: 360px;
@@ -1130,17 +1067,12 @@ background-size: cover;
 	   
 	}
 	
-	#indepth_cover img{
-		width: 95%;
-	}
-	
+
 	
 }
 	
 @media screen and (max-width: 360px) {
-		#indepth_cover{
-		height: 540px;	
-	}
+
 	
 	.adivina_izq{
 		width: 300px;
@@ -1221,9 +1153,7 @@ background-size: cover;
 	   
 	}
 	
-	#indepth_cover img{
-		width: 95%;
-	}
+
 	
 	.adivina_cont{
 		padding-bottom: 60px;
@@ -1240,39 +1170,21 @@ background-size: cover;
 
 
 
-@media screen and (max-height: 414px) {
-	#indepth_libros_container{
-		height: 320px;
+@media screen and (max-height: 800px) {
+	.indepth_mapa{
+		width: 850px;
 	}
-	
-
-	
-	.indepth_infografia_container{
-		width: 500px;
-	}
-	
-	#indepth_break_1{
-		height: 400px;
-	}
-	
-	.indepth_page_infografia img{
-		width: 500px;
-	}
-	
-	.indepth_break{
-		height: 600px;
-	}
-	
-		
-	#indepth_cover {
-height: 362px;
 }
 
-
-#indepth_cover .indepth_title {
-}
-			
+@media screen and (max-height: 700px) {
+	.indepth_mapa{
+		width: 750px;
 	}
+	
+	#seleccionador{
+		left: -50px;
+	}
+}
 
 @media screen and (max-width: 736px) and (max-height: 414px){
 	#indepth_cover .indepth_parallax_back{
@@ -1292,23 +1204,53 @@ height: 362px;
 	}
 }
 
-@keyframes changewidth {
-  from {
-    background: red;
-  }
 
-  to {
-    background-size: yellow;
-  }
+
+@media screen and (max-width: 800px) {
+	.indepth_mapa{
+		width: 700px;
+	}
+	
+	#seleccionador{
+		top: 100px;
+	}
+	
+	.indepth_page, .indepth_pages{
+		min-width: 0;
+	}
+	
+	.indepth_page_body{
+		width: auto;
+	}
+	
 }
 
-@-webkit-keyframes changewidth {
-  from {
-    background-size: auto 100%, auto auto;
-  }
+@media screen and (max-width: 605px) {
+	#seleccionador{
+		display: none;
+	}
+	
+	.indepth_mapa{
+		width: 100%;
+		height: auto;
+		
+	}
+	
+	.champ, .euro{
+		display: none;
+	}
+	
+	.nombre_t{
+		display: none;
+	}
+	
+	#pais_cont{
+		display: table;
+		position: relative;
+		height: auto;
+		margin-top: 30px;
+	}
 
-  to {
-    background-size: auto 150%, auto auto;
-  }
 }
+
 
